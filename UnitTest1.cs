@@ -25,7 +25,7 @@ namespace SeleniumTestProject
         [Test]
         public void Test1()
         {
-            Console.WriteLine("RUn the Test");
+            Console.WriteLine("Run the Test");
 
             Driver.Navigate().GoToUrl("https://www.google.com");
             Assert.True(Driver.Title.Contains("Google"));
